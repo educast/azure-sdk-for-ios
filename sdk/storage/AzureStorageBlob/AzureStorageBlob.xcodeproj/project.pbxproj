@@ -126,6 +126,7 @@
 		7AED8C7824AC0E1200B2CB93 /* ClientMethodOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientMethodOptions.swift; sourceTree = "<group>"; };
 		7AED8C7A24AC0E2200B2CB93 /* OptionsModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsModels.swift; sourceTree = "<group>"; };
 		8DEDD0D72A9D348630B7652F /* Pods-AzureStorageBlobTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AzureStorageBlobTests.release.xcconfig"; path = "Target Support Files/Pods-AzureStorageBlobTests/Pods-AzureStorageBlobTests.release.xcconfig"; sourceTree = "<group>"; };
+		A931974D26DE5CF400726FA9 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		B8B42B53938CF002712DE7AD /* Pods_AzureStorageBlobTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AzureStorageBlobTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3923D2D9E19E49D0B5649C6 /* Pods-AzureStorageBlob.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AzureStorageBlob.debug.xcconfig"; path = "Target Support Files/Pods-AzureStorageBlob/Pods-AzureStorageBlob.debug.xcconfig"; sourceTree = "<group>"; };
 		DE3538D9B59B54E936B091ED /* Pods_AzureStorageBlob.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AzureStorageBlob.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -171,6 +172,7 @@
 		0A68647F233E834D004B7E17 = {
 			isa = PBXGroup;
 			children = (
+				A931974D26DE5CF400726FA9 /* Package.swift */,
 				0ABFEE4926BDA3F800AB2B39 /* AzureStorageBlob.podspec.json */,
 				0A6864A8233E8388004B7E17 /* Source */,
 				0A686496233E834D004B7E17 /* Tests */,
