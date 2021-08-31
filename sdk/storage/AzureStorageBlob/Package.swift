@@ -11,7 +11,6 @@ let package = Package(
   products: [
     .library(
       name: "AzureStorageBlob",
-      type: .dynamic,
       targets: ["AzureStorageBlob"]
     ),
   ],
@@ -22,8 +21,9 @@ let package = Package(
     .target(
         name: "AzureStorageBlob",
         dependencies: [
-          "AzureCore",
-        ]
+          "AzureCore"
+        ],
+        resources: [.copy("Data/AzureStorage.xcdatamodeld")]
     ),
   ]
 )
